@@ -1,5 +1,5 @@
 <template>
-  <button @click="LoadUser()">Load</button>
+  <button @click="LoadUser()">ดูรายชื่อสินค้า</button>
   <ul>
     <li v-for="data,i in Data" :key="i">
       {{ data.id }} <br> {{ data.brand }} <br> {{ data.name }}
